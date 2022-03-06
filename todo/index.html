@@ -23,17 +23,33 @@
         <a id="myforest" href="http://www.google.com">My Forest</a>
         <a id="contact" href="http://www.google.com">Contact</a>
     </nav>
-        <section id="section-list">
-            <h1 id="headone">Yapılacaklar Listesi</h1>
-            <div class="list">
+    <section id="section-list" style="border: 1px solid rgb(255, 249, 249);">
+        <h1 id="headone">Yapılacaklar Listesi</h1>
+        <table style="border: 1px solid;">
+            <tr>
+                <td class="td1">Javascript</td>
+                <td class="td2"><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td class="td1">English Lesson</td>
+                <td class="td2"><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td class="td1">Pre School</td>
+                <td class="td2"><input type="checkbox"></td>
+            </tr>
+        </table>
+            
+            <!--div class="list">
                 <p id="todo">Javascript</p>
                 <input type="checkbox" id="control-box"></input>
-            </div>
-        </section>
-        <section id="section-add">
+            </div>-->
+    </section>
+    <section id="section-add">
             <input id="input-add" type="text" placeholder="Add a new job"></input>
-            <button type="button" name="add" onclick="Runningg()">Add</button>
-        </section>
+            <button id="button" type="button" name="add" onclick="Runningg()">Add</button>
+        
+    </section>
 
 
 <script src="app.js"></script>
