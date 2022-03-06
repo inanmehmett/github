@@ -99,8 +99,7 @@ textarea {
 body {
   background-color: orange;
   text-align: center;
-  height: 1500px;
-  font-family: "Helvetica Neue";
+  font-family: helvetica;
 }
 header {
   width: 100%;
@@ -130,4 +129,23 @@ header {
 #myforest,
 #contact {
   margin: 0 6%;
+}
+#section-list {
+  height: 30%;
+  border: 1px solid;
+}
+#section-add {
+  margin-top: 30%;
+  border: 1px solid;
+}
+table{
+  width: 90%;
+  float: right;
+}
+.td1{
+  float: left;
+  margin: 6px;
+}
+.td2{
+  float: right;
 }
